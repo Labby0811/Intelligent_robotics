@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- TO USE: roslaunch package_name project2.launch -->
+  <!-- <param name="world_name" type="string" value="world_name:=ias_lab_room_full_tables" /> -->
+
+  <include file="$(find tiago_iaslab_simulation)/launch/start_simulation.launch">
+    <arg name="world_name" value="ias_lab_room_full_tables" />
+  </include>
+
+  <include file="$(find tiago_iaslab_simulation)/launch/apriltag.launch">
+  </include>
+
+  <include file="$(find tiago_iaslab_simulation)/launch/navigation.launch">
+  </include>
+	
+	<!-- this code runs a node on THIS terminal -->
+  <!-- <node name="human_node" pkg="tiago_iaslab_simulation" type="node_executable" output="screen"> -->
+  <!-- </node> --> 
+
+</launch>

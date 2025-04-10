@@ -1,0 +1,22 @@
+[01m[K/home/greta/assignment_ws/src/assignment1/src/client_usr.cpp:27:74:[m[K [01;31m[Kerror: [m[K‘[01m[KScanResultConstPtr[m[K’ does not name a type
+   27 | void endDetectionCb(const actionlib::SimpleClientGoalState& state, const [01;31m[KScanResultConstPtr[m[K& result){
+      |                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/greta/assignment_ws/src/assignment1/src/client_usr.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/greta/assignment_ws/src/assignment1/src/client_usr.cpp:38:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+   38 |   std::cout << "Not enough arguments, please insert 3"
+      |                                                       [01;31m[K^[m[K
+      |                                                       [32m[K;[m[K
+   39 |   [32m[Kreturn[m[K 1;
+      |   [32m[K~~~~~~[m[K                                               
+[01m[K/home/greta/assignment_ws/src/assignment1/src/client_usr.cpp:41:27:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kchar*[m[K’ to type ‘[01m[Kfloat[m[K’
+   41 |  float xc = (float) argv[1[01;31m[K][m[K;
+      |                           [01;31m[K^[m[K
+[01m[K/home/greta/assignment_ws/src/assignment1/src/client_usr.cpp:42:27:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kchar*[m[K’ to type ‘[01m[Kfloat[m[K’
+   42 |  float yc = (float) argv[2[01;31m[K][m[K;
+      |                           [01;31m[K^[m[K
+[01m[K/home/greta/assignment_ws/src/assignment1/src/client_usr.cpp:43:27:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kchar*[m[K’ to type ‘[01m[Kfloat[m[K’
+   43 |  float zc = (float) argv[3[01;31m[K][m[K;
+      |                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/client_usr.dir/build.make:63: CMakeFiles/client_usr.dir/src/client_usr.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:468: CMakeFiles/client_usr.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

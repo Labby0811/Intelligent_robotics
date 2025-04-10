@@ -206,7 +206,7 @@ class ScanAction{
 			
 			/*STARTING NAVIGATION TO POS_B*/
 			// Create a ROS publisher that will publish a geometry_msgs::PoseStamped message on the /move_base_simple/goal topic to set the goal for the robot
- 			ros::Publisher pub = nh_.advertise<geometry_msgs::PoseStamped>("/move_base_simple/goal", 1); //Queue of 1 message
+ 			ros::Publisher pub = nh_.advertise<geometry_msgs::PoseStamped>("/move_base_simple/goal", 1); //Queue of 200 messages
 
 			ROS_INFO("I HAVE RECEIVED A GOAL");
 			//filling the variables with goal coordinates given by client request from action file

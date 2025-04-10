@@ -1,0 +1,6 @@
+devel_space: /home/greta/assignment_ws/devel
+install: false
+install_space: /home/greta/assignment_ws/install
+profile: default
+source_space: /home/greta/assignment_ws/src
+workspace: /home/greta/assignment_ws

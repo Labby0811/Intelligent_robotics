@@ -1,0 +1,6 @@
+[01m[K/home/greta/assignment_ws/src/assignment1/src/client_usr.cpp:28:74:[m[K [01;31m[Kerror: [m[K‘[01m[KScanResultConstPtr[m[K’ does not name a type
+   28 | void endDetectionCb(const actionlib::SimpleClientGoalState& state, const [01;31m[KScanResultConstPtr[m[K& result){
+      |                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/client_usr.dir/build.make:63: CMakeFiles/client_usr.dir/src/client_usr.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:468: CMakeFiles/client_usr.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

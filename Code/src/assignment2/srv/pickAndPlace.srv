@@ -1,0 +1,4 @@
+bool ready 
+int32 action #1:pick blue 2:pick green 3:pick red 4,5,6: respectively place  
+---
+bool status #false:error or not ready to do the next things #true:success on the current action 

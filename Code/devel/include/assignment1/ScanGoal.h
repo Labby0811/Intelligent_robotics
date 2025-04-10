@@ -1,0 +1,1 @@
+/home/greta/assignment_ws/devel/.private/assignment1/include/assignment1/ScanGoal.h

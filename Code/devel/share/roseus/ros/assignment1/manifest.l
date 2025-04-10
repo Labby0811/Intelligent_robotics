@@ -1,0 +1,1 @@
+/home/greta/assignment_ws/devel/.private/assignment1/share/roseus/ros/assignment1/manifest.l
